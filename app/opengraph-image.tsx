@@ -1,6 +1,6 @@
 import { ImageResponse } from 'next/og';
 
-export const runtime = 'edge';
+export const dynamic = 'force-static';
 export const alt = 'ไข่ต้มแก่น เจ๊ทุเรียน หลวงพ่อโสธร';
 export const size = {
   width: 1200,
